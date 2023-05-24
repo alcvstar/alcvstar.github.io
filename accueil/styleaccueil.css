@@ -21,8 +21,7 @@ body {
   
   
   .content {
-    height: 2000px;
-    margin-left: 20px;
+    margin: 20px;
   }
 
   h1 {
@@ -34,41 +33,49 @@ body {
     color: whitesmoke;
     font-size:20px;
   }
-  
-  .banner h1, .banner h2 {
-    margin: 0;
-  }
+
   
   h3 {
     font-size:20px;
-    margin-bottom: 20px;
   }
 
   h4 {
     text-align: justify;
-    margin-right: 20px;
+    font-size: 15px;
+  }
+  
+  .banner h1, .banner h2 {
+    margin: 0;
   }
 
-  /* Style du conteneur des "posts" */
+/* Style du conteneur des posts */
 #posts-container {
   display: flex;
   flex-direction: column;
 }
 
-/* Style des "posts" */
+/* Style des posts */
 .post {
   background-color: #f0f0f0;
   padding: 10px;
   margin-bottom: 10px;
-  margin-right: 20px;
 }
 
-/* Style des éléments à l'intérieur des "posts" */
+/* Style des éléments à l'intérieur des posts */
 .post h2 {
   color: #333;
   margin-left: 10px;
   margin-top: 10px;
   margin-right: 10px;
+  text-align: justify;
+}
+
+.post h3 {
+  color: #444;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: justify;
 }
 
 .post h4 {
@@ -77,6 +84,7 @@ body {
   margin-top: 10px;
   margin-right: 10px;
   margin-bottom: 10px;
+  text-align: justify;
 }
 
 .pdf-button {
@@ -115,5 +123,20 @@ footer {
   background-color: transparent;
 }
 
+.post .content {
+  max-height: 100px; /* Hauteur maximale du contenu */
+  overflow: hidden; /* Masquer le contenu supplémentaire */
+}
+
+.post .btn-show-more {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #f0f0f0;
+  color: #333;
+  text-decoration: none;
+  border: 1px solid #333;
+  border-radius: 4px;
+  font-size: 14px;
+}
 
 
