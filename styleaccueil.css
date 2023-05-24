@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .banner {
+    position: sticky;
+    top: 0;
+    background-color: rgb(7, 243, 157);
+    padding: 1px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  
+  
+  .content {
+    height: 2000px;
+    margin-left: 20px;
+  }
+
+  h1 {
+    color: whitesmoke;
+    font-size:30px;
+  }
+
+  h2 {
+    color: whitesmoke;
+    font-size:20px;
+  }
+  
+  .banner h1, .banner h2 {
+    margin: 0;
+  }
+  
+  h3 {
+    font-size:20px;
+    margin-bottom: 20px;
+  }
+
+  h4 {
+    text-align: justify;
+    margin-right: 20px;
+  }
+
+  /* Style du conteneur des "posts" */
+#posts-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style des "posts" */
+.post {
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+
+/* Style des éléments à l'intérieur des "posts" */
+.post h2 {
+  color: #333;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.post h4 {
+  color: #666;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.pdf-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f0f0f0;
+  color: #333;
+  text-decoration: none;
+  border: 1px solid #333;
+  border-radius: 4px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.pdf-button i {
+  margin-right: 5px;
+}
+
+.pdf-button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+  background-color: transparent;
+}
+
+
+
