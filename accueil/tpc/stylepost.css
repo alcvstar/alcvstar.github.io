@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .banner {
+    position: sticky;
+    top: 0;
+    background-color: rgb(7, 243, 157);
+    padding: 1px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    padding-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  
+  
+  .content {
+    height: 2000px;
+    margin: 20px;
+  }
+
+  h1 {
+    color: whitesmoke;
+    font-size:30px;
+  }
+
+  h2 {
+    color: whitesmoke;
+    font-size:20px;
+  }
+
+  h3 {
+    font-size:20px;
+  }
+
+  h4 {
+    text-align: justify;
+    font-size: 15px;
+  }
+  
+  .banner h1, .banner h2 {
+    margin: 0;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    background-color: transparent;
+  }
