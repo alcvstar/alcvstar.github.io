@@ -28,3 +28,22 @@ body {
     width: 320px;
     cursor: pointer;
   }
+
+  .form-group {
+    margin-top: 20px;
+  }
+
+  .form-label {
+    display: block;
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(7, 243, 157);
+  }
+
+  .form-input {
+    width: 250px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
