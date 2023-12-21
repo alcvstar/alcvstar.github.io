@@ -13,33 +13,16 @@
         <title>Mon Portfolio</title>
 
 <script>
-function redirectPage(code) {
-    switch (code) {
-      case 'Myp9':
-        window.open('/Network', '_blank');
-        break;
-      case 'a2U8':
-        window.open('/accueil/accueil.html', '_blank');
-        break;
-      default:
-        console.log('Invalid code. No matching page found.');
+    function redirectClicked() {
+        var nouvelleURL = "accueil/accueil.html";
+        window.location.href = nouvelleURL;
     }
-  }
-
-function redirectClicked() {
-    var code = document.getElementById('code').value;
-    redirectPage(code);
-}
 </script>
 
     </head>
     <body>
         <h1 class="taille500">
             <br><br><br>Mon Portfolio
-            <div id="redirect-form" class="form-group">
-                <label for="code" class="form-label">Entrez le code :</label>
-                <input type="text" id="code" class="form-input">
-            </div>
             <br><button type="button" class="taille400" onclick="redirectClicked()">Accéder au contenu</button>
         </h1>
         <h2 class="taille300">
